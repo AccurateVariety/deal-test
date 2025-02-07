@@ -22,9 +22,11 @@
 		<link href=css/loading.css rel=stylesheet>
 		<style>
         .nopadding > span > span {
-            --mask: radial-gradient(20px at 20px 20px,#0000 98%,#000) -20px -20px;
-            -webkit-mask: var(--mask);
-            mask: var(--mask);
+            --mask: 
+    linear-gradient(0,#0000 68px,#000 0),
+    radial-gradient(68px,#000 calc(100% - 1px),#0000) bottom/125.8px 136px;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
         }
 </style>
 	</head>
